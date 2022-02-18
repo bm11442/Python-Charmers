@@ -1,5 +1,5 @@
 initial: Be prepared to get roasted.
-final: Goodbye.  Thank you for talking to me.
+final: Later loser.
 quit: bye
 quit: goodbye
 quit: quit
