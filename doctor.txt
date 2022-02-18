@@ -1,4 +1,4 @@
-initial: How do you do.  Please tell me your problem.
+initial: Be prepared to get roasted.
 final: Goodbye.  Thank you for talking to me.
 quit: bye
 quit: goodbye
