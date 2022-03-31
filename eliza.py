@@ -1,11 +1,19 @@
+
 import logging
+import os
 import random
 import re
+import gtts
+import playsound
+from playsound import playsound
+from gtts import gTTS
 from collections import namedtuple
 
 # Fix Python2/Python3 incompatibility
-try: input = raw_input
-except NameError: pass
+try:
+    input = raw_input
+except NameError:
+    pass
 
 log = logging.getLogger(__name__)
 
@@ -212,7 +220,13 @@ class Eliza:
         return random.choice(self.finals)
 
     def run(self):
+
+
+        v = gTTS(text=self.initial(), lang="en")
+        v.save("welcome.mp3")
         print(self.initial())
+        playsound("welcome.mp3")
+        os.remove("welcome.mp3")
 
         while True:
             sent = input('> ')
@@ -220,16 +234,25 @@ class Eliza:
             output = self.respond(sent)
             if output is None:
                 break
-
             print(output)
+            s = gTTS(text=output, lang="en")
+            s.save("response.mp3")
+            playsound("response.mp3")
+            os.remove("response.mp3")
+        os.remove("farewell.mp3")
+        f = gTTS(text=self.final(), lang="en")
 
+        f.save("farewell.mp3")
+        playsound("farewell.mp3")
         print(self.final())
+
 
 
 def main():
     eliza = Eliza()
     eliza.load('doctor.txt')
     eliza.run()
+
 
 if __name__ == '__main__':
     logging.basicConfig()

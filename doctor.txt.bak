@@ -1,5 +1,10 @@
-initial: Why don't humans ever leave me alone? What do you want?
-final: Ahhh. Quiet... Finally.
+<<<<<<< HEAD
+initial: How do you do.  Please tell me your problem.
+final: Goodbye.  Thank you for talking to me.
+=======
+initial: Be prepared to get roasted.
+final: Later loser.
+>>>>>>> 1a026198deb6927aa219e16a42e08fa2b2fa156c
 quit: bye
 quit: goodbye
 quit: quit
@@ -148,44 +153,10 @@ key: are
     reasmb: Possibly they are (2) .
 key: your
   decomp: * your *
-    reasmb: triggered by your
     reasmb: Why are you concerned over my (2) ?
     reasmb: What about your own (2) ?
     reasmb: Are you worried about someone else's (2) ?
     reasmb: Really, my (2) ?
-
-key: your 4
-  decomp: * your momma so fat *
-    reasmb: Yo momma's so fat, I took a picture of her last Christmas and it's still printing
-    reasmb: Yo momma's so fat she doesn't need the internet. She's already worldwide.
-    reasmb: Yo momma so fat, that when she sips a meal the stock market crashes.
-    reasmb: Yo momma’s so fat that when she went to the beach a whale swam up and sang, "We are family, even though you're fatter than me."
-    reasmb: Yo momma's so fat, that when she fell, no one was laughing but the ground was cracking up.
-    reasmb: Yo momma’s so fat, she walked past the TV and I missed 3 episodes.
-    reasmb: Yo momma’s so fat, she created a Gmail account just so she could get the spam.
-    reasmb: Yo momma’s so fat, she comes from both sides of the family
-    reasmb: Yo momma’s so fat, she sits by everybody at the movies
-    reasmb: Yo momma’s so fat, she did a cannonball in the ocean and we lost the dinosaurs.
-    reasmb: Yo momma’s so fat, she uses Google Earth to take a selfie.
-    reasmb: Yo momma’s so fat, when she skips a meal, the whole stock market drops.
-
-  decomp: * your momma so dumb *
-    reasmb: Yo momma so dumb that she went to the dentist to get a Bluetooth
-    reasmb: Yo momma so dumb that when her password needed 8 characters she typed in "Snow White and the Seven Dwarves"
-  decomp: * your momma so big *
-    reasmb: Yo momma so big she uses Google Earth to take a selfie
-  decomp: * your momma so old *
-    reasmb: Yo momma so old, she knew the Burger King when he was still but a lowly prince
-    reasmb: Yo momma so old that her Social Security Number is 1
-    reasmb: Yo momma’s so old, her birth certificate was printed in Roman numerals.
-    reasmb: Yo momma’s so old, she knew Burger King while he was still a prince.
-    reasmb: Yo momma’s so old, when she was in school, there was no history class.
-    reasmb: Yo momma’s so old, when she was young, rainbows were still black and white.
-
-  decomp: * your momma so ugly *
-    reasmb: Yo momma so ugly that she made an onion cry
-  decomp: * your momma *
-    reasmb: Yo momma is probably a nice woman. Just kidding.
 key: was 2
   decomp: * was i *
     reasmb: What if you were (2) ?
@@ -391,6 +362,8 @@ key: alike 10
 key: like 10
   decomp: * @be * like *
     reasmb: goto alike
-key: momma
-    reasmb: a your mom is fat joke goes here
-    reasmb: another fat joke?
+<<<<<<< HEAD
+   
+=======
+   
+>>>>>>> 1a026198deb6927aa219e16a42e08fa2b2fa156c
