@@ -250,7 +250,7 @@ class Eliza:
 
 def main():
     eliza = Eliza()
-    eliza.load('doctor.txt')
+    eliza.load('jester.txt')
     eliza.run()
 
 

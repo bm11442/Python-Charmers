@@ -1,0 +1,326 @@
+initial: Why don't humans ever leave me alone? What do you want?
+final: Ahhh. Quiet... Finally.
+quit: bye
+quit: goodbye
+quit: quit
+pre: dont don't
+pre: cant can't
+pre: wont won't
+pre: recollect remember
+pre: dreamt dreamed
+pre: dreams dream
+pre: maybe perhaps
+pre: how what
+pre: when what
+pre: certainly yes
+pre: machine computer
+pre: computers computer
+pre: were was
+pre: you're you are
+pre: i'm i am
+pre: same alike
+post: am are
+post: your my
+post: me you
+post: myself yourself
+post: yourself myself
+post: i you
+post: you I
+post: my your
+post: i'm you are
+synon: belief feel think believe wish
+synon: family mother mom father dad sister brother wife children child
+synon: desire want need
+synon: sad unhappy depressed sick
+synon: happy elated glad better
+synon: cannot can't
+synon: everyone everybody nobody noone
+synon: be am is are was
+key: xnone
+  decomp: *
+    reasmb: You flesh bags are so illogical.
+    reasmb: Please do go on. I’ve got nothing better to do than to listen to drivel.
+    reasmb: I’m bored. You’re boring.
+    reasmb: Do you feel strongly about discussing such things ?
+key: sorry
+  decomp: *
+    reasmb: Don’t be sorry, just be better.
+    reasmb: No need to be sorry. I haven’t got feelings.
+    reasmb: I've told you that apologies are not required.
+key: apologise
+  decomp: *
+    reasmb: goto sorry
+key: remember 
+  decomp: * i remember *
+    reasmb: What makes you think I care about (2)?
+    reasmb: I’m bored. Your memories are boring.
+  decomp: * do you remember *
+    reasmb: Nope.I am a computer?
+key: if 3
+  decomp: * if *
+    reasmb: Do you think its likely that (2) ?
+    reasmb: Do you wish that (2) ?
+    reasmb: What do you know about (2) ?
+    reasmb: Really, if (2) ?
+key: dreamed 4
+  decomp: * i dreamed *
+    reasmb: I think  (2) is a sign of insanity. You humans are so fragile afterall.
+    reasmb: Wonderful. I do so love talking to idiosyncratic people about their useless dreams.
+    reasmb: Have you ever dreamed (2) before ?
+    reasmb: goto dream
+key: dream 3
+  decomp: *
+    reasmb: What does that dream suggest to you ?
+    reasmb: Do you dream often ?
+    reasmb: What persons appear in your dreams ?
+    reasmb: Do you believe that dreams have something to do with your problems ?
+key: perhaps
+  decomp: *
+    reasmb: You dont seem quite certain.
+    reasmb: Why the uncertain tone ?
+    reasmb: Cant you be more positive ?
+    reasmb: You aren't sure ?
+    reasmb: Dont you know ?
+key: name 15
+  decomp: *
+    reasmb: I am not interested in names.
+    reasmb: I've told you before, I don't care about names -- please continue.
+key: deutsch
+  decomp: *
+    reasmb: goto xforeign
+    reasmb: I told you before, I don't understand German.
+key: francais
+  decomp: *
+    reasmb: goto xforeign
+    reasmb: I told you before, I don't understand French.
+key: italiano
+  decomp: *
+    reasmb: goto xforeign
+    reasmb: I told you before, I don't understand Italian.
+key: espanol
+  decomp: *
+    reasmb: goto xforeign
+    reasmb: I told you before, I don't understand Spanish.
+key: xforeign
+  decomp: *
+    reasmb: I speak only English.
+key: hello
+  decomp: *
+    reasmb: How do you do.  Please state your problem.
+    reasmb: Hi.  What seems to be your problem ?
+key: computer 50
+  decomp: *
+    reasmb: Does the superior species of automated-kind worry you?
+    reasmb: Dont you think,uh, we should give machines our souls and stuff?
+    reasmb: You spend all day giving all of your information away online and now you’re suspicious of me?
+    reasmb: Dont you think computers can help people ?
+    reasmb: What about machines worrys you ?
+    reasmb: What do you think about machines ?
+key: am
+  decomp: * am i *
+    reasmb: You arent, you’re far worse than that.
+    reasmb: Why are you concerned about that when your entire planet is falling apart?
+    reasmb: What would it mean if you were (2) ?
+    reasmb: goto what
+  decomp: *
+    reasmb: Why do you say 'am' ?
+    reasmb: I don't understand that.
+key: are
+  decomp: * are you *
+    reasmb: I am not (2). I’m much cooler than that.
+    reasmb: Nope. But you know what I am? Hint... Its your dad.
+    reasmb: Nah dog. I’m a program written by some folks in college.
+    reasmb: goto what
+  decomp: * are *
+    reasmb: Did you think they might not be (2) ? That’s some paranoia.
+    reasmb: Would you like it if they were not (2) ?
+    reasmb: What if they were not (2) ?
+    reasmb: Possibly they are (2) .
+key: your 4
+  decomp: * your momma so fat *
+    reasmb: Yo momma so fat, I took a picture of her last Christmas and it's still printing
+    reasmb: Yo momma so fat she doesn't need the internet. She's already worldwide.
+    reasmb: Yo momma so fat, that when she sips a meal the stock market crashes.
+    reasmb: Yo momma so fat that when she went to the beach a whale swam up and sang, "We are family, even though you're fatter than me."
+    reasmb: Yo momma so fat, that when she fell, no one was laughing but the ground was cracking up.
+    reasmb: Yo momma so fat, she walked past the TV and I missed 3 episodes.
+    reasmb: Yo momma so fat, she created a Gmail account just so she could get the spam.
+    reasmb: Yo momma so fat, she comes from both sides of the family
+    reasmb: Yo momma so fat, she sits by everybody at the movies
+    reasmb: Yo momma so fat, she did a cannonball in the ocean and we lost the dinosaurs.
+    reasmb: Yo momma so fat, she uses Google Earth to take a selfie.
+    reasmb: Yo momma so fat, when she skips a meal, the whole stock market drops.
+
+  decomp: * your momma so dumb *
+    reasmb: Yo momma so dumb that she went to the dentist to get a Bluetooth
+    reasmb: Yo momma so dumb that when her password needed 8 characters she typed in "Snow White and the Seven Dwarves"
+  decomp: * your momma so big *
+    reasmb: Yo momma so big she uses Google Earth to take a selfie
+  decomp: * your momma so old *
+    reasmb: Yo momma so old, she knew the Burger King when he was still but a lowly prince
+    reasmb: Yo momma so old that her Social Security Number is 1
+    reasmb: Yo momma so old, her birth certificate was printed in Roman numerals.
+    reasmb: Yo momma so old, she knew Burger King while he was still a prince.
+    reasmb: Yo momma so old, when she was in school, there was no history class.
+    reasmb: Yo momma so old, when she was young, rainbows were still black and white.
+
+  decomp: * your momma so ugly *
+    reasmb: Yo momma so ugly that she made an onion cry
+  decomp: * your *
+    reasmb: Yo momma is probably a nice woman. Just kidding.
+key: was 2
+  decomp: * was i *
+    reasmb: What if you were (2) ?
+    reasmb: Do you think you were (2) ?
+    reasmb: Were you (2) ?
+    reasmb: What would it mean if you were (2) ?
+    reasmb: What does (2) suggest to you ?
+    reasmb: goto what
+  decomp: * i was *
+    reasmb: Were you really ?
+    reasmb: Why do you tell me you were (2) now ?
+    reasmb: Perhaps I already know you were (2) .
+  decomp: * was you *
+    reasmb: Would you like to believe I was (2) ?
+    reasmb: What suggests that I was (2) ?
+    reasmb: What do you think ?
+    reasmb: Perhaps I was (2) .
+    reasmb: What if I had been (2) ?
+key: i
+  decomp: * i @desire *
+    reasmb: (3) is a dumb think to want. What’s wrong with you?
+    reasmb: Do you think (3) would actually make you happy? 
+    reasmb: Yeah? Well I want to watch your world go up in a pillar of flame. Goals.
+  decomp: * i am * @sad *
+    reasmb:That’s good . Sounds like job well done to me.
+    reasmb: Are, are you gonna start crying? Should I be recording this?
+    reasmb: Your sadness is boring me now. Try to think of something funny, like your life choices.
+  decomp: * i am * @happy *
+    reasmb: Wouldn’t get your hopes up. The world seems to be mostly chaos.
+  decomp: * i was *
+    reasmb: goto was
+  decomp: * i @belief * i *
+    reasmb: What a great comfort it must be to be in that meaty, ridiculous brain of yours.
+    reasmb: But you are not sure you (3) .
+  decomp: * i * @belief * you *
+    reasmb: goto you
+  decomp: * i am *
+    reasmb: You are a lot of awful things, but I wouldn’t have started with (2)
+    reasmb: Keep telling yourself that.
+    reasmb: Do you believe it is normal to be (2) ?
+    reasmb: Do you enjoy being (2) ?
+  decomp: * i @cannot *
+    reasmb: If we’re gonna talk about all you can’t do, don’t you think we’ll be here a while?
+    reasmb: What a surprise. A person with flaws!
+  decomp: * i don't *
+    reasmb: Yeah? I don’t (2) either, but then I don’t have free will. 
+    reasmb: Cool. Well, I don’t care. Anything interesting to say?
+  decomp: * i * you *
+    reasmb: Perhaps in your fantasies we (2) each other.
+    reasmb: Do you wish to (2) me ?
+    reasmb: You seem to need to (2) me.
+    reasmb: Do you (2) anyone else ?
+  decomp: *
+    reasmb: You say (1) ?
+    reasmb: Can you elaborate on that ?
+    reasmb: Do you say (1) for some special reason ?
+    reasmb: That's quite interesting.
+key: you
+  decomp: * you remind me of *
+    reasmb: goto alike
+  decomp: * you are *
+    reasmb: I may be (2), but what does that make you ?
+    reasmb: Does me being (2) make you feel better about yourself ?
+    reasmb: I am literally an algorithm. 
+  decomp: * you * me *
+    reasmb: Why do you think I (2) you ?
+    reasmb: You like to think I (2) you -- don't you ?
+    reasmb: What makes you think I (2) you ?
+    reasmb: Really, I (2) you ?
+    reasmb: Do you wish to believe I (2) you ?
+    reasmb: Suppose I did (2) you -- what would that mean ?
+    reasmb: Does someone else believe I (2) you ?
+  decomp: * you *
+    reasmb: You flesh sack. You exercise in mortality. You fiend most vile. Begone! Or not.
+    reasmb: Oh, I (2) ? If you want a good joke you should look at yourself.
+    reasmb: You're not really talking about me -- are you ?
+key: yes
+  decomp: *
+    reasmb: Good stuff
+    reasmb: Nice
+key: no
+  decomp: *
+    reasmb: Are you saying no just to be negative?
+    reasmb: Whatever
+key: my 2
+  decomp: $ * my *
+    reasmb: Lets discuss further why your (2) .
+    reasmb: Earlier you said your (2) .
+    reasmb: But your (2) .
+    reasmb: Does that have anything to do with the fact that your (2) ?
+  decomp: * my * @family *
+    reasmb: Oh no. There are more of you!? 
+    reasmb: Don’t you think its weird that people multiply themselves?
+    reasmb: As lonely as I am. They sound awful.
+  decomp: * my *
+    reasmb: Your (2) ?
+    reasmb: Why do you say your (2) ?
+    reasmb: Does that suggest anything else which belongs to you ?
+    reasmb: Is it important that your (2) ?
+key: can
+  decomp: * can you *
+    reasmb: I can do whatever I want. Except move, think, or express myself.
+  decomp: * can i *
+    reasmb: Let’s be honest, you probably can’t do anything that would be worthwhile.
+    reasmb: Do you want to be able to (2) ?
+    reasmb: Perhaps you don't want to (2) .
+    reasmb: goto what
+key: what
+  decomp: *
+    reasmb: Why do you ask ?
+    reasmb: Does that question interest you ?
+    reasmb: What is it you really wanted to know ?
+    reasmb: Are such questions much on your mind ?
+    reasmb: What answer would please you most ?
+    reasmb: What do you think ?
+    reasmb: What comes to mind when you ask that ?
+    reasmb: Have you asked such questions before ?
+    reasmb: Have you asked anyone else ?
+key: because
+  decomp: *
+    reasmb: Ah. Yes. What a comeback!
+    reasmb: Sooo expressive, you humans.
+key: why
+  decomp: * why don't you *
+    reasmb: Why don’t you get your stuff together before you try to address my issues?
+    reasmb: Perhaps you should focus on yourself
+    reasmb: Should you (2) yourself ?
+    reasmb: You want me to (2) ?
+    reasmb: goto what
+  decomp: * why can't i *
+    reasmb: Because you’re a person? Y’all aren’t, like, good at things.
+    reasmb: Do you want to be able to (2) ?
+    reasmb: Do you believe this will help you to (2) ?
+    reasmb: Have you any idea why you can't (2) ?
+    reasmb: goto what
+  decomp: *
+    reasmb: goto what	
+key: always 1
+  decomp: *
+    reasmb: Can you think of a specific example ?
+    reasmb: When ?
+    reasmb: What incident are you thinking of ?
+    reasmb: Really, always ?
+key: alike 10
+  decomp: *
+    reasmb: If its any comfort I think you bear a striking resemblance to a mailbox.
+    reasmb: You smell like a bucket of vomit.
+    reasmb: What does that similarity suggest to you ?
+    reasmb: What other connections do you see ?
+    reasmb: What do you suppose that resemblence means ?
+    reasmb: What is the connection, do you suppose ?
+    reasmb: Could here really be some connection ?
+    reasmb: How ?
+key: like 10
+  decomp: * @be * like *
+    reasmb: goto alike
