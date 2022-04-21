@@ -1,0 +1,109 @@
+commit e6eb01d83a2ff0b26c0240d731ff9570956d7ce0
+Author: bm11442 <98412519+bm11442@users.noreply.github.com>
+Date:   Tue Apr 19 09:44:33 2022 -0400
+
+    Jester txt added and eliza changed to accept it
+
+commit 947e1a4cfc877aead7ea90e0655d86241c607e21
+Author: kcrotts <97857338+kcrotts@users.noreply.github.com>
+Date:   Tue Apr 12 18:19:50 2022 -0400
+
+    Website-In-Progress
+    
+    The beginning files to the python charmers interactive Eliza website. Still needs a lot of editing.
+    To work correctly, probably need to install pip & flask before using these files.
+    (That folder was too large to upload along with it).
+    -Using the YouTube tutorial "Python Website Full Tutorial - Flask, Authentication...." by Tech With Tim.
+    
+    Note: Kind of scratched some of the text I had beforehand so we can have the option for more than one page. Still working!
+       Sorry it's taking me so long, I'm slow at learning this. Let me know if there's any problems, I'll update these files every so often.
+
+commit 9dc165ac502773f2667a5885c992d6d80133944f
+Author: kcrotts <97857338+kcrotts@users.noreply.github.com>
+Date:   Thu Apr 7 17:46:08 2022 -0400
+
+    Update ReadMe.txt
+
+commit fcac05f48eefb4c66aa7e77d63e4965d6f9d858d
+Author: bm11442 <98412519+bm11442@users.noreply.github.com>
+Date:   Thu Mar 31 11:35:58 2022 -0400
+
+    edited files
+    
+    sorry guys
+
+commit 3fe9fe4a7dae915983f2858e059f6c0a8624342e
+Merge: 3a951e3 b92bfd0
+Author: bm11442 <98412519+bm11442@users.noreply.github.com>
+Date:   Thu Mar 31 11:34:43 2022 -0400
+
+    Merge branch 'main' of https://github.com/bm11442/Python-Charmers
+
+commit b92bfd08734673a1e178a2cf2f371ecc51591ead
+Author: kcrotts <97857338+kcrotts@users.noreply.github.com>
+Date:   Wed Mar 9 21:58:24 2022 -0500
+
+    Update ReadMe.txt
+
+commit 3a951e3cdd7d981d1ef78104c45588ff8192095a
+Merge: e0a9737 1a02619
+Author: bm11442 <98412519+bm11442@users.noreply.github.com>
+Date:   Thu Feb 24 11:17:09 2022 -0500
+
+    Merge branch 'main' of https://github.com/bm11442/Python-Charmers
+
+commit 1a026198deb6927aa219e16a42e08fa2b2fa156c
+Author: jzheng7-pjeg <71141633+jzheng7-pjeg@users.noreply.github.com>
+Date:   Fri Feb 18 13:39:09 2022 -0500
+
+    Update doctor.txt
+
+commit 33583a8d651bc03a42227516f2719b5489463880
+Author: jzheng7-pjeg <71141633+jzheng7-pjeg@users.noreply.github.com>
+Date:   Fri Feb 18 13:38:20 2022 -0500
+
+    Update doctor.txt
+
+commit 831b2e4b5766ecb7eb460ee0490b949488942603
+Author: kcrotts <97857338+kcrotts@users.noreply.github.com>
+Date:   Fri Feb 18 13:36:28 2022 -0500
+
+    Update ReadMe.txt
+
+commit 4844dfc272c640d750044b0eb6177b50e1c813fb
+Author: kcrotts <97857338+kcrotts@users.noreply.github.com>
+Date:   Fri Feb 18 13:36:10 2022 -0500
+
+    Update ReadMe.txt
+
+commit cab5061e558759cb0abe3f308e3ea1a0dbb55bb5
+Author: bm11442 <98412519+bm11442@users.noreply.github.com>
+Date:   Fri Feb 18 13:33:08 2022 -0500
+
+    Add files via upload
+
+commit e0a9737468f4a16fc8facdb38d7745e0ca2a9727
+Author: bm11442 <98412519+bm11442@users.noreply.github.com>
+Date:   Thu Feb 17 11:28:13 2022 -0500
+
+    main bits from the git
+    
+    eliza, a tester, and a txt file. Haven't had time to sit down with all of this yet, but hopefully soon.
+
+commit 501e30b6c72c99c6de16a454f8615b8b75f52a94
+Author: jzheng7-pjeg <71141633+jzheng7-pjeg@users.noreply.github.com>
+Date:   Fri Jan 28 12:54:54 2022 -0500
+
+    commit test
+
+commit b133baf765699e19cab8ba8ce1f3e13a44b97bfe
+Author: jzheng7-pjeg <71141633+jzheng7-pjeg@users.noreply.github.com>
+Date:   Fri Jan 28 11:10:15 2022 -0500
+
+    Update ReadMe.txt
+
+commit f8f78af8e243a75cb9d67ac924c1bb3e74186e96
+Author: bm11442 <98412519+bm11442@users.noreply.github.com>
+Date:   Thu Jan 27 11:10:43 2022 -0500
+
+    Create ReadMe.txt
