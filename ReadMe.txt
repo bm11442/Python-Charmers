@@ -1,10 +1,4 @@
-This is where a read me would go
-Peanut Butter Jelly time
-Jonathan from PyCharm 
-Ladadee 
-
-- - - - - - - - - - 
-CSCI 4322 Modern Sw Development
+CSCI-4322 Modern Software Development
 Professor Repko
 Objective: Modernize the original Eliza 
 -> Our take, is like a jester bot. Instead of normal therapuetic advice,
