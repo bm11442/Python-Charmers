@@ -144,38 +144,59 @@ key: are
     reasmb: What if they were not (2) ?
     reasmb: Possibly they are (2) .
 key: your 4
-  decomp: * your @family * @fat *
-    reasmb: Yo (2) so fat, I took a picture of them last Christmas and its still printing
-    reasmb: Yo (2) so fat they don't need the internet. They're already worldwide.
-    reasmb: Yo (2) so fat, that when they skip a meal the stock market crashes.
-    reasmb: Yo (2) so fat that when they went to the beach a whale swam up and sang, "We are family, even though you're fatter than me."
-    reasmb: Yo (2) so fat, that when they fell, no one was laughing but the ground was cracking up.
-    reasmb: Yo (2) so fat, they walked past the TV and I missed 3 episodes.
-    reasmb: Yo (2) so fat, they created a Gmail account just so she could get the spam.
-    reasmb: Yo (2) so fat, they comes from both sides of the family
-    reasmb: Yo (2) so fat, they sits by everybody at the movies
-    reasmb: Yo (2) so fat, they did a cannonball in the ocean and we lost the dinosaurs.
+  decomp: * your @family * @fat *    
+    reasmb: Yo (2) so fat, that when they fell, no one was laughing, but the ground was cracking up.    
+    reasmb: Yo (2) so fat, they comes from both sides of the family   
+    reasmb: Yo (2) so fat, they sits by everybody at the movies    
+    reasmb: Yo (2) so fat, they did a cannonball in the ocean and we lost the dinosaurs.    
     reasmb: Yo (2) so fat, they uses Google Earth to take a selfie.
+    reasmb: Yo (2) so fat, I took a picture of them last Christmas and its still printing
+    reasmb: Yo (2) so fat, they don't need the internet. They're already worldwide.
+    reasmb: Yo (2) so fat, that when they skip a meal the stock market crashes.
+    reasmb: Yo (2) so fat, that when they went to the beach, a whale swam up and sang, "We are family, even though you're fatter than me."
+    reasmb: Yo (2) so fat, they walked past the TV and I missed 3 episodes.
+    reasmb: Yo (2) so fat, they created a Gmail account just so she could get Spam.
 
   decomp: * your @family * @dumb *
-    reasmb: Yo (2) so dumb that she went to the dentist to get a Bluetooth
-    reasmb: Yo (2) so dumb that when her password needed 8 characters she typed in "Snow White and the Seven Dwarves"
+    reasmb: Yo (2) so dumb, they went to the dentist to get a Bluetooth
+    reasmb: Yo (2) so dumb, when their password needed 8 characters, she typed in "Snow White and the Seven Dwarves"
+    reasmb: Yo (2) so dumb, they got locked in a grocery store and starved!
+    reasmb: Yo (2) so dumb, when they saw the “Under 17 not admitted” sign at a movie theatre, they went home and got 16 friends.
+    reasmb: Yo (2) so dumb, they spent twenty minutes lookin’ at an orange juice box because it said “concentrate”.
+    reasmb: Yo (2) so dumb, they think Tiger Woods is a forest in India.
+    reasmb: Yo (2) so dumb, he failed a survey.
+    reasmb: Yo (2) so stupid, when the computer said “Press any key to continue”, they couldn’t find the ‘Any’ key.
+    reasmb: 
+    
   decomp: * your @family * @big *
-    reasmb: Yo (2) so big she uses Google Earth to take a selfie
+    reasmb: Yo (2) so big, they use Google Earth to take a selfie
+    
   decomp: * your @family * @old *
-    reasmb: Yo (2) so old, she knew the Burger King when he was still but a lowly prince
-    reasmb: Yo (2) so old that her Social Security Number is 1
-    reasmb: Yo (2) so old, her birth certificate was printed in Roman numerals.
-    reasmb: Yo (2) so old, she knew Burger King while he was still a prince.
+    reasmb: Yo (2) so old, their Social Security Number is 1
+    reasmb: Yo (2) so old, their birth certificate was printed in Roman numerals.
+    reasmb: Yo (2) so old, they knew the Burger King when he was still a prince.
     reasmb: Yo (2) so old, when she was in school, there was no history class.
     reasmb: Yo (2) so old, when she was young, rainbows were still black and white.
-  decomp: * your @family * @ugly *
-    reasmb: Yo (2) so ugly that they made an onion cry
+    reasmb: Yo (2) so old, they sat behind George Washington in first grade.
+    reasmb: Yo (2) so old, Jesus signed their yearbook!
+    
+  decomp: * your @family * @ugly *    
+    reasmb: Yo (2) so ugly, when they were born, the doctor slapped their parents!
+    reasmb: Yo (2) so ugly, people cross the street to avoid them, but they're so fat, people can't avoid them
+    reasmb: Yo (2) so ugly, that… well… look at you!
+    reasmb: Yo (2) so ugly, their pillow cries at night.
+    reasmb: Yo (2) so ugly, they made an onion cry
+    reasmb: Yo (2) so ugly, that they looked out the window and got arrested for mooning.
+    reasmb: Yo (2) so ugly, they get nightmares about theirself!
+
+
   decomp: * your @family *
-    reasmb: Yo (2) is called me last night, I won't tell you about the plans we made.
+    reasmb: Yo (2) just called me last night, I won't tell you about the plans we made.
     reasmb: Yo (2) looks just like you. Sorry about that 
+    
   decomp: * your face *
     reasmb: My face? I haven't even got one. Look at yours for god sake!
+    
   decomp: * your *
     reasmb: goto xnone
   
