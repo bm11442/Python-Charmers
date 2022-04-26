@@ -146,7 +146,7 @@ key: are
 key: your 4
   decomp: * your @family * @fat *
     reasmb: Yo (2) so fat, I took a picture of them last Christmas and its still printing
-    reasmb: Yo (2) so fat they don't need the internet. Their already worldwide.
+    reasmb: Yo (2) so fat they don't need the internet. They're already worldwide.
     reasmb: Yo (2) so fat, that when they skip a meal the stock market crashes.
     reasmb: Yo (2) so fat that when they went to the beach a whale swam up and sang, "We are family, even though you're fatter than me."
     reasmb: Yo (2) so fat, that when they fell, no one was laughing but the ground was cracking up.
