@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}About Us{% endblock %}
+
+
+{% block content1 %}
+<h1 style="text-align:center; font-size:55px; font-family:'Georgia'; ">Meet the Developers!</h1>
+
+<body style="background-color:lightgrey;"> 
+    <br>
+    <h3 style="font-family:'Georgia';">
+        <br> Who we are:
+    </h3>
+    We are a group of computer scientists from Georgia Southern University, based in Savannah, Georgia. 
+    Our group members consist of Katelyn Crotts, Brett Mitchell, Wesley Stoneman, and Jonathan Zheng.
+    <br> <br>
+    <h3 style="font-family:'Georgia';"> 
+        <br> Our purpose:
+    </h3>
+        <p1>
+            We began developing this project from Joseph Weizenbaum's original idea of the Eliza program. 
+            Our goal was to branch out from its basic "therapuetic" functionality, and take a more "laugh therapy" approach.
+            Starting with yo momma jokes, the expanded eliza bot will return a witty remark with each request. 
+            Our project is still in its infant stage, with huge capabilities of expansion.
+        </p1>
+     
+</body>
+
+
+
+<!-- Link at the bottom of page to return to home page -->
+<br> <br> <br> <br>
+    <a 
+href="http://127.0.0.1:5000/" title="Go to Eliza Jester Bot"style="text-align:center;">Return to the Eliza Home Page</a>
+
+
+{% endblock %}
+
+<!-- FORMAT FOR A FUNCTIONAL BUTTON
+    <button onclick="document.location='http://127.0.0.1:5000/'">Return HOME</button>
+ -->
