@@ -8,3 +8,4 @@ if __name__ == '__main__':
 
 
 # command to run the app:    python "Flask Web App Tutorial\main.py"
+# link to the website: http://127.0.0.1:5000/

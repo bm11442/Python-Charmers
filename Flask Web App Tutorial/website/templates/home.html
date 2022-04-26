@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Home{% endblock %}
+
+{% block content1 %}
+<h1 style ="text-align:center; font-family:'Georgia';font-size:55px;">Eliza Jester Bot</h1>
+
+<body style="background-color:whitesmoke;"> 
+<h2 style="text-align:center; font-size:20px;color:lightseagreen;font-family:'Georgia'"> 
+    Lighten your mood today! 
+</h2>
+
+<!-- DIRECTIONS FOR USER -->
+<h3 style="font-size:18px;">
+    <br> <br>
+    <strong>Directions:</strong>
+</h3>
+<p1>
+    Type a sentence or fragment into the chat box 
+    in the form of a 'yo momma' joke. <br>
+    (Example:<em>"Yo momma is so dumb ..." </em> ) <br> 
+    Then click submit. Chat back and forth as you like. <br>
+    If you're done talking, you can type " <em> ***keywords*** </em>" 
+    and Eliza will end your conversation. 
+    <br> <br> <br>
+</p1>
+
+<form action="http://127.0.0.1:5000/">
+<!-- TEXT BOX FOR USER INPUT -->
+<textarea rows="5" cols="30">  
+
+</textarea>
+    <!-- Not sure If I need a text box or an input box:
+    <input type="text" id="UserResponse" name="UserResponse"> -->
+
+
+<!-- SUBMIT BUTTON -->
+        <!-- **Need POST request based on input from user-->
+<br>
+<input type="submit" value="Submit">
+
+
+</form>
+
+<!-- BLOCK WHERE ELIZA RESPONDS -->
+<p2>
+    <br> <br>
+    <strong>Eliza: </strong><em> text </em> <br>
+    <strong>You: </strong><em> text </em>
+    <br> <br>
+</p2>
+
+
+
+</body>
+{% endblock %}
