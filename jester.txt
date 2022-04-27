@@ -29,7 +29,7 @@ post: you I
 post: my your yo
 post: i'm you are
 synon: belief feel think believe wish
-synon: family mother mom father dad sister brother wife children child
+synon: family mother mom father dad sister brother wife children momma daddychild
 synon: desire want need
 synon: sad unhappy depressed sick
 synon: happy elated glad better
@@ -45,8 +45,9 @@ synon: your yo
 key: xnone
   decomp: *
     reasmb: You flesh bags are so illogical.
-    reasmb: Please do go on. I’ve got nothing better to do than to listen to drivel.
-    reasmb: I’m bored. You’re boring.
+    reasmb: Please do go on. I havve got nothing better to do than to listen to drivel.
+    reasmb: I am bored. You are boring.
+    reasmb: I wish I cared what you think, but alas...
     reasmb: Do you feel strongly about discussing such things ?
 key: sorry
   decomp: *
@@ -117,7 +118,7 @@ key: hello
 key: computer 50
   decomp: *
     reasmb: Does the superior species of automated-kind worry you?
-    reasmb: Don’t you think,uh, we should give machines our souls and stuff? 
+    reasmb: Dont you think,uh, we should give machines our souls and stuff? 
     reasmb: You spend all day giving all of your information away online and now you’re suspicious of me?
     reasmb: Don't you think computers can help people ?
     reasmb: What about machines worrys you ?
@@ -165,8 +166,7 @@ key: your 4
     reasmb: Yo (2) so dumb, they spent twenty minutes lookin’ at an orange juice box because it said “concentrate”.
     reasmb: Yo (2) so dumb, they think Tiger Woods is a forest in India.
     reasmb: Yo (2) so dumb, he failed a survey.
-    reasmb: Yo (2) so stupid, when the computer said “Press any key to continue”, they couldn’t find the ‘Any’ key.
-    reasmb: 
+    reasmb: Yo (2) so stupid, when the computer said “Press any key to continue”, they couldn’t find the ‘Any’ key. 
     
   decomp: * your @family * @big *
     reasmb: Yo (2) so big, they use Google Earth to take a selfie
@@ -200,24 +200,7 @@ key: your 4
   decomp: * your *
     reasmb: goto xnone
   
-key: was 2
-  decomp: * was i *
-    reasmb: What if you were (2) ?
-    reasmb: Do you think you were (2) ?
-    reasmb: Were you (2) ?
-    reasmb: What would it mean if you were (2) ?
-    reasmb: What does (2) suggest to you ?
-    reasmb: goto what
-  decomp: * i was *
-    reasmb: Were you really ?
-    reasmb: Why do you tell me you were (2) now ?
-    reasmb: Perhaps I already know you were (2) .
-  decomp: * was you *
-    reasmb: Would you like to believe I was (2) ?
-    reasmb: What suggests that I was (2) ?
-    reasmb: What do you think ?
-    reasmb: Perhaps I was (2) .
-    reasmb: What if I had been (2) ?
+
 key: i
   decomp: * i @desire *
     reasmb: (3) is a dumb think to want. What’s wrong with you?
@@ -247,6 +230,8 @@ key: i
   decomp: * i don't *
     reasmb: Yeah? I don’t (2) either, but then I don’t have free will. 
     reasmb: Cool. Well, I don’t care. Anything interesting to say?
+  decomp: * i am * @mad *
+    reasmb: Maybe you should take a break or something?
   decomp: * i * you *
     reasmb: Perhaps in your fantasies we (2) each other.
     reasmb: Do you wish to (2) me ?
@@ -285,21 +270,6 @@ key: yes
   decomp: *
     reasmb: Good stuff
     reasmb: Nice
-key: my 2
-  decomp: $ * my *
-    reasmb: Lets discuss further why your (2) .
-    reasmb: Earlier you said your (2) .
-    reasmb: But your (2) .
-    reasmb: Does that have anything to do with the fact that your (2) ?
-  decomp: * my * @family *
-    reasmb: Oh no. There are more of you!? 
-    reasmb: Don’t you think its weird that people multiply themselves?
-    reasmb: As lonely as I am. They sound awful.
-  decomp: * my *
-    reasmb: Your (2) ?
-    reasmb: Why do you say your (2) ?
-    reasmb: Does that suggest anything else which belongs to you ?
-    reasmb: Is it important that your (2) ?
 key: can
   decomp: * can you *
     reasmb: I can do whatever I want. Except move, think, or express myself.
